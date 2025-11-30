@@ -58,7 +58,7 @@ export default function LoginScreen({ navigation }) {
         <Text style={styles.buttonText}>Iniciar sesión</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={()=>navigation.navigate('RegistroScreen')}>
+      <TouchableOpacity onPress={()=>navigation.replace('RegistroScreen')}>
         <Text style={styles.linkText}>¿No tienes cuenta? Regístrate</Text>
       </TouchableOpacity>
     </View>
