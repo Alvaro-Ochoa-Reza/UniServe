@@ -129,7 +129,7 @@ export default function RegistroScreen({ navigation }) {
         <Text style={styles.buttonText}>Registrar</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={()=>navigation.goBack()} style={{marginTop:10}}>
+      <TouchableOpacity onPress={()=>navigation.navigate("LoginScreen")} style={{marginTop:10}}>
         <Text style={styles.backText}>Volver a Login</Text>
       </TouchableOpacity>
     </ScrollView>
